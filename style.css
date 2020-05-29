@@ -1,0 +1,33 @@
+body {
+	background-image: linear-gradient(65deg, #63b7af 65%, #212121 25%);
+	background-color: #c7004c;
+	color: #63b7af;
+	font-family: 'Tenali Ramakrishna', sans-serif;
+}
+
+.calculator {
+	padding:10px 30px;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background-color:#211717;
+	width: 50%;
+}
+
+.name-box {
+	padding: 12px 14px;
+	width: 40%
+}
+
+.buttons {
+	color: white;
+	background-color: #212121;
+	border: solid #63b7af;
+	cursor: pointer;
+	margin: 10px 10px;
+	padding: 10px 20px 10px 20px;
+	position: relative;
+	font-size: 1rem;
+}
